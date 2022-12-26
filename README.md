@@ -1,5 +1,25 @@
 # api-quick-start
 
+## by Farah Ailouti and Mohammad Ghzzawi
+
+#### How to use your library (where applicable):
+#### docker-compose up
+
+* docker-compose run web python manage.py createsuperuser
+
+* docker-compose run web python manage.py migrate
+
+* docker-compose run web python manage.py makemigrations
+
+* pip install djangorestframework
+#
+* docker-compose up --build
+* docker-compose down
+* docker-compose restart
+* docker-compose run web python manage.py migrate
+* docker-compose run web python manage.py collectstatic
+#
+
 Template Project for starting up CRUD API with Django Rest Framework
 
 ## Customization Steps
